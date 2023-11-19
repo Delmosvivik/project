@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css">
+    <title>Тест</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="lancer.html" class="nav__link">Любимый автомобиль</a>
+            </li>
+            <li class="nav__item">
+                <a href="days.html" class="nav__link">Дни в секунды</a>
+            </li>
+            <li class="nav__item">
+                <a href="calc.html" class="nav__link">Калькулятор</a>
+            </li>
+            <li class="nav__item">
+                <a href="test.html" class="nav__link">Тест</a>
+            </li>
+            <li class="nav__item">
+                <a href="game.html" class="nav__link">Угадай число</a>
+            </li>
+            <li class="nav__item">
+                <a href="list.html" class="nav__link">Список дел</a>
+            </li>
+            <li class="nav__item">
+                <a href="#!" class="nav__link">Заметки</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="quiz-container">
+        <h1>Тест после занятия №11</h1>
+        <div class="question" id="question">
+            Вопрос 1: Какой язык программирования вы изучаете?
+        </div>
+        <div class="options" id="options">
+            <button onclick="nextQuestion('JavaScript')">JavaScript</button>
+            <button onclick="nextQuestion('Python')">Python</button>
+            <button onclick="nextQuestion('Java')">Java</button>
+            <button onclick="nextQuestion('C++')">C++</button>
+        </div>
+        <div class="result" id="result">
+        </div>
+    </div>
+
+    <script src="js/test.js"></script>
+</body>
+
+</html>
