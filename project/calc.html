@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/days.css">
-    <title>Дни в секунды</title>
+    <link rel="stylesheet" href="css/calc.css">
+    <title>калькулятор</title>
 </head>
-
 <body>
     <nav class="nav">
         <ul class="nav__list">
@@ -34,16 +32,17 @@
             </li>
         </ul>
     </nav>
-    <div class="outer">
-        <div class="centered">
-            <input id="day" type="text" size=41px placeholder="Количество дней">
-        </div>
-        <div class="centered">
-            <button type="button" id="convert">Перевести в секунды</button>
-            <input id="sec" type="text" placeholder="Результат в секундах" disabled>
-        </div>
+<div class="outer">
+    <input id="number" type="text" placeholder="число">
+    <input id="number2" type="text" placeholder="число">
+    <div class="centered">
+        <button type="button" id="plus">Сложить</button>
+        <button type="button" id="minus">Вычесть</button>
+        <button type="button" id="multiply">Умножить</button>
+        <button type="button" id="divide">Разделить</button>
     </div>
-    <script src="/js/days.js"></script>
+    <input type="text" id="result" placeholder="Результат" disabled>
+</div>
+    <script src="/js/calc.js"></script>
 </body>
-
 </html>

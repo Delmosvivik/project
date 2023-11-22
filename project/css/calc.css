@@ -29,7 +29,9 @@ button:hover{
     box-shadow: 5px 3px;
 }
 
-
+.nav{
+    margin-top: 10px;
+}
 .nav__list {
     display: flex;
 }
