@@ -1,0 +1,52 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+   
+    font-family: Arial, sans-serif;
+}
+.nav{
+    margin-top: 10px;
+}
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.4px;
+    color:black;
+}
+li, ul {
+    list-style: none;
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.li{
+    color: crimson;
+    font-size: 40px;
+}
+a {
+   text-decoration: none;
+   color: crimson;
+   font-size: 20px;
+}
