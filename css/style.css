@@ -1,8 +1,9 @@
 html,
-body{
+body {
     height: 100%;
 }
-body{
+
+body {
     margin: 0;
     height: 100%;
     display: flex;
@@ -10,12 +11,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.2;
-   
+
     font-family: Arial, sans-serif;
 }
-.nav{
+
+.nav {
     margin-top: 10px;
 }
+
 .nav__list {
     display: flex;
 }
@@ -32,21 +35,48 @@ body{
     font-weight: 500;
     font-size: 35px;
     line-height: 1.4px;
-    color:black;
+    color: black;
 }
-li, ul {
+
+li,
+ul {
     list-style: none;
 }
-.title{
+
+.title {
     font-size: 60px;
     font-weight: bold;
+    text-align: center;
 }
-.li{
+
+.li {
     color: crimson;
     font-size: 40px;
 }
+
 a {
-   text-decoration: none;
-   color: crimson;
-   font-size: 20px;
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+}
+
+.table {
+    background: linear-gradient(135deg, aqua, red);
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid crimson;
+    border-collapse: collapse;
+}
+
+td {
+    border: 3px solid crimson;
+    padding: 5px;
+}
+
+.title__block {
+    width: 700px;
+    height: 100px;
+    background: linear-gradient(135deg, aqua, red);
+    border-radius: 15px;
+    padding-bottom: 40px;
 }

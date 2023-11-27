@@ -1,70 +1,70 @@
-
-body{
+body {
     margin: 0;
     height: 100%;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.2;
-   
+
     font-family: Arial, sans-serif;
 }
 
-h1{color: #333;
+h1 {
+    color: #333;
 }
 
-#task{
-padding: 10px;
-font-size: 16px;
-width: 60%;
-margin-right: 10px;
-border: 1px solid #ccc;
+#task {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
 }
 
-#add-button
-{
-padding: 10px 20px;
-font-size: 16px;
-background-color: #007bff;
-color: #fff;
-border: none;
-cursor: pointer;
+#add-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-#add-button:hover
-{
-background-color: #0056b3;
+#add-button:hover {
+    background-color: crimson;
 }
 
-#todo-list{
-list-style: none;
-padding: 0;
+#todo-list {
+    list-style: none;
+    padding: 0;
 }
 
-#todo-list li{
-background-color: #fff;
-padding: 10px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 10px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#todo-list li {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#todo-list button{
-background-color: #dc3545;
-color: #fff;
-border: none;
-padding: 5px 10px;
-cursor: pointer;
+#todo-list button {
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
 #todo-list button:hover {
-background-color: #c82333;
+    background-color: crimson;
 }
-.nav{
+
+.nav {
     margin-top: 10px;
 }
+
 .nav__list {
     display: flex;
 }
@@ -81,9 +81,19 @@ background-color: #c82333;
     font-weight: 500;
     font-size: 35px;
     line-height: 1.4px;
-    color:black;
+    color: black;
 }
-li, ul {
+
+li,
+ul {
     list-style: none;
-    
+
+}
+
+.title {
+    color: rgb(255, 153, 0);
+}
+
+.modal-content {
+    background: linear-gradient(135deg, orange, red);
 }
